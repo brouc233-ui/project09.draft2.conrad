@@ -425,5 +425,7 @@ function draw() {
     }
   }
 
-  if (activeKeys.length >= 2) {
-    const heldStars
+if (activeKeys.length >= 2) {
+  const heldStars = activeKeys.map(k => k.lastStar).filter(Boolean);
+  // Add any drawing code here if needed
+}
